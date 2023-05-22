@@ -1,0 +1,46 @@
+{
+  "name": "movies-explorer-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "npx eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l9llika/movies-explorer-api.git"
+  },
+  "keywords": [
+    "api",
+    "jwt",
+    "mongodb"
+  ],
+  "author": "Ruslan Rzaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l9llika/movies-explorer-api/issues"
+  },
+  "homepage": "https://github.com/l9llika/movies-explorer-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "celebrate": "^15.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-winston": "^4.2.0",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "validator": "^13.9.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.41.0",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}

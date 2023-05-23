@@ -16,8 +16,8 @@
 `npm run dev` — запускает сервер с hot-reload
 
 ## API адрес
-IP  
+IP  158.160.35.25
 
-Frontend  
+Frontend  https://movies-l9lika.nomoredomains.monster/
 
-Backend  
+Backend  https://movies-l9lika.nomoredomains.monster/api

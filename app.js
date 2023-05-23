@@ -13,6 +13,7 @@ const config = require('./utils/config');
 
 const app = express();
 
+mongoose.set('strictQuery', false);
 mongoose.connect(config.MONGODB_URL, {
     useNewUrlParser: true,
 });

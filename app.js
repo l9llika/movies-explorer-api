@@ -15,7 +15,7 @@ const app = express();
 
 mongoose.set('strictQuery', false);
 mongoose.connect(config.MONGODB_URL, {
-    useNewUrlParser: true,
+  useNewUrlParser: true,
 });
 
 app.use(express.json());
@@ -30,3 +30,5 @@ app.use(errors());
 app.use(errorHandler);
 
 app.listen(config.PORT);
+
+// scp -r ./backend/* l9llika@158.160.35.25:/home/l9llika/backend

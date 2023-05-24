@@ -30,5 +30,3 @@ app.use(errors());
 app.use(errorHandler);
 
 app.listen(config.PORT);
-
-// scp -r ./backend/* l9llika@158.160.35.25:/home/l9llika/backend
